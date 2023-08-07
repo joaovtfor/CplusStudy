@@ -8,10 +8,8 @@
             Comment
 */
 
-using namespace std;
-
 int main()
 {
-cout << "Hello, World!" << endl; // endl forces a line-break
+std::cout << "Hello, World!"; // endl forces a line-break
  return 0;
 }
