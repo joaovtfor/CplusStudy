@@ -1,1 +1,1 @@
-# CplusStudy
+Casual studies in C++ and in-classes exercises from Passo Fundo University (UPF).
