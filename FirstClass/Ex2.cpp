@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstring>
 
+//cstring lib for null input spaces
+
 using namespace std;
 
 int main()
