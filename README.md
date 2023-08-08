@@ -1,8 +1,10 @@
-#INTRODUCTION
+# WELCOME
+
+## INTRODUCTION
 
 Casual studies in C++ and in-classes exercises from Passo Fundo University (UPF).
 
-#EXTENSIONS
+## EXTENSIONS
 
 -C/C++ - Microsoft
 -C/C++ Compile Run (Windows config) - danielpinto8zz6
