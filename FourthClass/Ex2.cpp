@@ -4,6 +4,7 @@ using namespace std;
 
 void imprimir(string texto, int count)
 {
+    count ++;
     cout << texto << count << endl;
 }
 
@@ -16,10 +17,12 @@ int adiciona(int x, int y)
 int main()
 {
     int x = 10, y = 2, i = 0, t = 500;
-    for (i = 0; i < 5; i++)
-    {
-        imprimir("Function ", i);
-    }
+   
+   // Non ref variable
+    imprimir("Function ", i);
+    imprimir("Function ", i);
+    imprimir("Function ", i);
+    
 
     int sum = adiciona(x, y);
     cout << "Sum: " << sum << endl;
