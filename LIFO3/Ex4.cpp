@@ -11,9 +11,9 @@ int main()
     int **pp; //Declarando um ponteiro para ponteiro 'pp'
     pp = &p;
 
-    cout << pp << " " 
-         << *pp << " " 
-         << **pp << endl;
+    cout << pp << " " //imprime endereço de p por meio do ponteiro pp
+         << *pp << " "  //imprime o valor apontado por pp que é o endereço a (valor de p)
+         << **pp << endl; //imprime o valor apontado duas vezes por pp, que é o valor de a
 
     return 0;
 }
